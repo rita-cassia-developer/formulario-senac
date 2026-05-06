@@ -1,0 +1,59 @@
+h1, section {
+	background-color: floralwhite;
+	text-align: center;
+	color: black;
+	padding: 10px;
+	border-radius: 8px;
+}
+
+
+
+body {
+	background-color: #B0E0E6;
+	text-align: center;
+	color: black;
+}
+
+.formulario, h2 {
+	border-radius: 8px;
+	background-color: floralwhite;
+	color: black;
+	padding: 10px;
+
+}
+
+.loading-container {
+	padding: 8px;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.loading {
+	
+	width: 15px;
+	height: 15px;
+	background-color: black; 
+	border-radius: 50%;
+	animation: quicar 1.0s infinite ease-in-out;
+	margin-top: 20px;
+}
+
+.loading:nth-child(1) { animation-delay: 0.2s; }
+.loading:nth-child(2) { animation-delay: 0.4s; }
+.loading:nth-child(3) { animation-delay: 0.6s; }
+.loading:nth-child(4) { animation-delay: 0.8s; }
+
+
+@keyframes quicar {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+
+footer {
+background-color: floralwhite;
+border-radius: 8px;
+display: flex;
+}
